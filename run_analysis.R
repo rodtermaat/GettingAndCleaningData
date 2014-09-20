@@ -82,7 +82,7 @@ train_test_summary <- group_by(train_test_final, activity, subject)
 ## 8b. calculate the mean of each variable
 final_final <- summarise_each(train_test_summary, funs(mean))
 ## 7c. write the output to disk
-write.table(final_final, "./data/final_extract.txt")
+write.table(final_final, "./data/final_extract.txt", row.name=FALSE)
 
 
 
