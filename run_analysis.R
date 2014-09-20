@@ -35,12 +35,11 @@ names8 <- gsub("\\)", "", names7)
 ## 3a. read in the train data and add the colunm headers
 train_dat <- read.table("./data/UCI HAR Dataset/train/x_train.txt", 
                         colClasses = "double", 
-                        col.names = names8,
-                        nrows=1000)
+                        col.names = names8)
 
 ## 3b. read in the subjects and activties for the train data and append it
-activity <- read.table("./data/UCI HAR Dataset/train/y_train.txt", col.names="activity", nrows=1000)
-subjects <- read.table("./data/UCI HAR Dataset/train/subject_train.txt", col.names="subject",nrows=1000)
+activity <- read.table("./data/UCI HAR Dataset/train/y_train.txt", col.names="activity")
+subjects <- read.table("./data/UCI HAR Dataset/train/subject_train.txt", col.names="subject")
 train_master <- cbind(subjects, activity, train_dat)
 
 
@@ -48,12 +47,11 @@ train_master <- cbind(subjects, activity, train_dat)
 ## 4a. read in the test data and add the colunm headers
 test_dat <- read.table("./data/UCI HAR Dataset/test/x_test.txt", 
                        colClasses = "double", 
-                       col.names = names8,
-                       nrows=1000)
+                       col.names = names8)
 
 ## 4b. read in the subjects and activties for the test data and append it
-activity <- read.table("./data/UCI HAR Dataset/test/y_test.txt", col.names="activity", nrows=1000)
-subjects <- read.table("./data/UCI HAR Dataset/test/subject_test.txt", col.names="subject",nrows=1000)
+activity <- read.table("./data/UCI HAR Dataset/test/y_test.txt", col.names="activity")
+subjects <- read.table("./data/UCI HAR Dataset/test/subject_test.txt", col.names="subject")
 test_master <- cbind(subjects, activity, test_dat)
 
 ## Step 5 combine the train and test data into 1 data set
