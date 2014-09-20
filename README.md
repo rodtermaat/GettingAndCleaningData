@@ -31,7 +31,7 @@ This project is to access, assemble, format, and tidy the original study data de
 The data must first be downloaded at the following url:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
 
 The data is downloaded, unzipped, and stored locally.  This can be done manually, or using the included run_analysis.R script.  
-The data must be stored on the working directory in a direcotry called data. Additionally the data directory structure of the original download must be perserved. 
+The data must be stored on the working directory in a directory called data. Additionally the data directory structure of the original download must be perserved. 
 
 
 The following instructions were given for the assignment:

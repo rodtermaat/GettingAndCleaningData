@@ -9,7 +9,7 @@ Course project Code book
 September 2014, Coursera:  Johns Hopkins Universtity: Getting and Cleaning Data
 Author:  Rod TerMaat
 
-The source data is well documented in the oringinal study data by
+The source data is well documented in the original study data by:
 --------------------------------------------------
 Original Study Authors:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -21,7 +21,7 @@ www.smartlab.ws
 
 * The complete descriptions of the original study are found in the downloaded file used to complete this assignment.
 ** Please refer to these documents for questions not specifically related to this assignment.
-*** Where appropriate information from the orignal study have been included in the readme and this code book and noted as such.
+*** Where appropriate information from the original study has been included in the readme and this code book and noted as such.
 
 
 Experimental design and background: 
@@ -38,7 +38,7 @@ Raw data.
 
 Measurements: The study data consists of several data sets containing measured information collected and stored as floating point notation.  The files are x_test.txt and x_train.txt. The full list of variables is found at the end of this code book.
 
-Varibable names:  This data consists of the column names that are represented in the measurements data x_test.txt and x_train.txt.
+Variable names:  This data consists of the column names that are represented in the measurements data x_test.txt and x_train.txt.
 
 Activities:  numeric representations of various activities being undertaken as the measurements are collected
   valid values are 1, 2, 3, 4, 5, 6 and of datatype integer
@@ -58,7 +58,7 @@ Subject and Activity was added to the measurements dataset
 
 The dataset now contains all of the relevant variables and observations from the original study.
 
-This final dataset contains only viariables containing only mean and standard deviations variables from directly measured sources.  
+This final dataset contains only variables containing only the mean and standard deviations variables from directly measured sources.  
 
 The variables in the final dataset are:  
 
